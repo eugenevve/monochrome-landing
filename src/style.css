@@ -3,7 +3,16 @@
   src: url("/fonts/Roboto-Medium.ttf") format("truetype");
 }
 
+:root {
+  /* Color */
+  --white: #ffffff;
+  --black: #111113;
+  --gray: #959595;
+}
+
 body {
   margin: 0;
+  color: var(--white);
+  background: var(--black);
   font-family: "Roboto";
 }
