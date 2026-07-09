@@ -1,6 +1,7 @@
 import type { FC } from "react";
-import { BrowserRouter, Routes } from "react-router";
+import { BrowserRouter, Route, Routes } from "react-router";
 import { Head } from "./components/Head";
+import { HomePage } from "./pages/HomePage";
 
 export const App: FC = () => {
   return (
@@ -8,7 +9,7 @@ export const App: FC = () => {
       <Head />
       <BrowserRouter>
         <Routes>
-          {/* TODO: Pages */}
+          <Route path="/" element={<HomePage />} />
         </Routes>
       </BrowserRouter>
     </>
