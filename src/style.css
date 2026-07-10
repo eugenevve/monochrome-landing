@@ -8,6 +8,17 @@
   --white: #ffffff;
   --black: #111113;
   --gray: #959595;
+
+  /* Spacing */
+  --spacing-xs: 2px;
+  --spacing-s: 5px;
+  --spacing-m: 10px;
+  --spacing-l: 15px;
+  --spacing-xl: 20px;
+  --spacing-xxl: 30px;
+
+  /* Border */
+  --border: var(--spacing-xs) solid var(--white);
 }
 
 body {
