@@ -18,7 +18,12 @@
     /* Linting */
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+
+    // Paths
+    "paths": {
+      "@app/*": ["./src/*"]
+    }
   },
   "include": ["src"]
 }
