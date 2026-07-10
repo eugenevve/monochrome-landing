@@ -1,7 +1,7 @@
 import type { FC } from "react";
 import type { IButton } from "./Button.types";
 import styles from "./Button.module.css";
-import { classNames } from "../../utils/classNames";
+import { classNames } from "@app/utils/classNames";
 
 export const Button: FC<IButton> = ({ kind, icon, children, ...props }) => {
   return (
