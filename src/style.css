@@ -19,11 +19,23 @@
 
   /* Border */
   --border: var(--spacing-xs) solid var(--white);
+
+  /* Font */
+  --font-family: "Roboto";
+
+  /* Font-size */
+  --fs-sm: 16px; /* Forms, Buttons */
+  --fs-md: 18px; /* Content, Description */
+  --fs-lg: 20px; /* Section headings */
+  --fs-xl: 30px; /* Big headlines */
+
+  /* Transition */
+  --transition: 200ms;
 }
 
 body {
   margin: 0;
   color: var(--white);
   background: var(--black);
-  font-family: "Roboto";
+  font-family: var(--font-family);
 }
