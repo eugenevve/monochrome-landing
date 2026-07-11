@@ -1,5 +1,6 @@
 import type { FC } from "react";
 import { BrowserRouter, Route, Routes } from "react-router";
+
 import { Head } from "./components/Head";
 import { HomePage } from "./pages/HomePage";
 
