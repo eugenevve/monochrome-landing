@@ -1,0 +1,17 @@
+.container {
+  position: sticky;
+  bottom: var(--spacing-s);
+  margin-bottom: var(--spacing-l);
+  width: 100%;
+
+  background: var(--black);
+  box-sizing: border-box;
+
+  border: var(--border);
+  border-radius: var(--spacing-l);
+  padding: var(--spacing-s);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
