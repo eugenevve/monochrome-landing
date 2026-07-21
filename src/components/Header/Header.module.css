@@ -20,9 +20,3 @@
   display: flex;
   gap: var(--spacing-m);
 }
-
-@media (max-width: 1200px) {
-  .container {
-    margin-top: var(--spacing-l);
-  }
-}
