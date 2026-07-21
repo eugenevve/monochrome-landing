@@ -1,0 +1,36 @@
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  width: 900px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.chapter {
+  margin-top: var(--spacing-xxl);
+}
+
+@media (max-width: 1024px) {
+  .content {
+    width: 96%;
+  }
+
+  .chapter {
+    margin-top: var(--spacing-l);
+    margin-bottom: var(--spacing-l);
+  }
+}
