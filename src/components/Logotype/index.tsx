@@ -6,7 +6,7 @@ import styles from "./Logotype.module.css";
 
 export const Logotype: FC = () => {
   return (
-    <Link to="/" replace>
+    <Link to="/" replace className={styles.container}>
       <Logo className={styles.icon} />
     </Link>
   );
