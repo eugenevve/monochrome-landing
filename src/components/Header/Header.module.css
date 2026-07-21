@@ -1,0 +1,28 @@
+.container {
+  position: sticky;
+  top: var(--spacing-s);
+  margin-top: var(--spacing-xxl);
+  width: 100%;
+
+  background: var(--black);
+  box-sizing: border-box;
+
+  border: var(--border);
+  border-radius: var(--spacing-l);
+  padding: var(--spacing-s) var(--spacing-m);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  gap: var(--spacing-m);
+}
+
+@media (max-width: 1200px) {
+  .container {
+    margin-top: var(--spacing-l);
+  }
+}
