@@ -1,7 +1,7 @@
 .container {
   position: sticky;
-  bottom: var(--spacing-s);
-  margin-bottom: var(--spacing-l);
+  bottom: max(var(--spacing-s), env(safe-area-inset-bottom));
+  margin-bottom: max(var(--spacing-l), env(safe-area-inset-bottom));
   width: 100%;
 
   background: var(--black);
