@@ -6,7 +6,7 @@ import type { IIconButton } from "./IconButton.types";
 
 export const IconButton: FC<IIconButton> = ({ kind, children, ...props }) => {
   return (
-    <button className={classNames(styles.container, styles[kind])} {...props}>
+    <button {...props} className={classNames(styles.container, styles[kind])}>
       <div className={styles.content}>{children}</div>
     </button>
   );
