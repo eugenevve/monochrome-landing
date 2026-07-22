@@ -1,0 +1,16 @@
+.line {
+  background: var(--content);
+
+  border-radius: var(--spacing-l);
+}
+
+.vertical {
+  width: var(--spacing-xs);
+
+  align-self: stretch;
+}
+
+.horizontal {
+  width: 100%;
+  height: var(--spacing-xs);
+}
