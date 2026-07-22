@@ -50,4 +50,6 @@ body {
   background: var(--background);
 
   font-family: var(--font-family);
+  
+  -webkit-tap-highlight-color: transparent;
 }
