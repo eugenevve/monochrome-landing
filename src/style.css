@@ -18,7 +18,7 @@
   --spacing-xxl: 30px;
 
   /* Border */
-  --border: var(--spacing-xs) solid var(--white);
+  --border: var(--spacing-xs) solid var(--content);
 
   /* Font */
   --font-family: "Roboto";
@@ -33,9 +33,21 @@
   --transition: 200ms;
 }
 
+[data-theme="dark"] {
+  --content: var(--white);
+  --background: var(--black);
+}
+
+[data-theme="light"] {
+  --content: var(--black);
+  --background: var(--white);
+}
+
 body {
   margin: 0;
-  color: var(--white);
-  background: var(--black);
+
+  color: var(--content);
+  background: var(--background);
+
   font-family: var(--font-family);
 }
