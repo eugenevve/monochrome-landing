@@ -1,4 +1,4 @@
-import { ThemeKind } from "@app/theme/theme";
+import { ThemeKind } from "@app/theme/Theme.types";
 import { useTheme } from "@app/theme/useTheme";
 import type { FC } from "react";
 import { Helmet } from "react-helmet-async";

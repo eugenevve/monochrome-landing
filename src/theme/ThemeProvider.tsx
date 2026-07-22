@@ -1,6 +1,6 @@
 import { useEffect, useState, type FC, type PropsWithChildren } from "react";
 
-import { getSystemTheme, THEME_KEY, ThemeKind, type Theme } from "./theme";
+import { getSystemTheme, THEME_KEY, ThemeKind, type Theme } from "./Theme.types";
 import { ThemeContext } from "./ThemeContext";
 
 export const ThemeProvider: FC<PropsWithChildren> = ({ children }) => {

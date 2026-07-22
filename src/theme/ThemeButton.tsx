@@ -1,9 +1,10 @@
-import { ThemeKind } from "@app/theme/theme";
 import { useTheme } from "@app/theme/useTheme";
 import { IconButton } from "@app/ui/IconButton";
 import { IconButtonKind } from "@app/ui/IconButton/IconButton.types";
 import { MoonIcon, SunIcon, DesktopIcon } from "@app/ui/Icons";
 import type { FC } from "react";
+
+import { ThemeKind } from "./Theme.types";
 
 const icon = {
   light: <SunIcon />,

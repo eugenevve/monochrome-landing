@@ -1,6 +1,6 @@
 import { createContext } from "react";
 
-import type { Theme, ThemeKind } from "./theme";
+import type { Theme, ThemeKind } from "./Theme.types";
 
 export type ThemeContextValue = {
   theme: Theme;
