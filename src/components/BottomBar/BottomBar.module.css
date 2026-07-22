@@ -13,5 +13,19 @@
 
   display: flex;
   align-items: center;
+  gap: var(--spacing-xl);
+}
+
+.menu {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
   justify-content: space-between;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xl);
 }

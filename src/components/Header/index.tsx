@@ -1,5 +1,7 @@
+import { ThemeButton } from "@app/theme/ThemeButton";
 import { Button } from "@app/ui/Button";
 import { ButtonKind } from "@app/ui/Button/Button.types";
+import { Line } from "@app/ui/Line";
 import { navigationItems } from "@app/utils/navigation";
 import { useNavigationKind } from "@app/utils/useNavigationKind";
 import type { FC } from "react";
@@ -15,12 +17,16 @@ export const Header: FC = () => {
   return (
     <div className={styles.container}>
       <Logotype />
-      <div className={styles.menu}>
-        {navigationItems.map(({ label, path, icon }) => (
-          <Button key={path} kind={getButtonKind(path)} onClick={() => void navigate(path)} icon={icon}>
-            {label}
-          </Button>
-        ))}
+      <div className={styles.section}>
+        <div className={styles.menu}>
+          {navigationItems.map(({ label, path, icon }) => (
+            <Button key={path} kind={getButtonKind(path)} onClick={() => void navigate(path)} icon={icon}>
+              {label}
+            </Button>
+          ))}
+        </div>
+        <Line vertical />
+        <ThemeButton />
       </div>
     </div>
   );

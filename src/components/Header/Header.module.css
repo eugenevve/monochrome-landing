@@ -4,7 +4,7 @@
   margin-top: var(--spacing-xxl);
   width: 100%;
 
-  background: var(--black);
+  background: var(--background);
   box-sizing: border-box;
 
   border: var(--border);
@@ -18,5 +18,11 @@
 
 .menu {
   display: flex;
+  gap: var(--spacing-m);
+}
+
+.section {
+  display: flex;
+  align-items: center;
   gap: var(--spacing-m);
 }
