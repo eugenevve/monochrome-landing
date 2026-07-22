@@ -4,7 +4,7 @@
   margin-bottom: max(var(--spacing-l), env(safe-area-inset-bottom));
   width: 100%;
 
-  background: var(--black);
+  background: var(--background);
   box-sizing: border-box;
 
   border: var(--border);
