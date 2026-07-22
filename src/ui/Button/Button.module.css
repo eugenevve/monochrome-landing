@@ -1,3 +1,19 @@
+:root {
+  --color-primary: var(--black);
+  --background-primary: var(--white);
+
+  --color-secondary: var(--white);
+  --background-secondary: var(--black);
+}
+
+[data-theme="dark"] {
+  --color-primary: var(--white);
+  --background-primary: var(--black);
+
+  --color-secondary: var(--black);
+  --background-secondary: var(--white);
+}
+
 .container {
   width: fit-content;
   height: fit-content;
@@ -32,35 +48,35 @@
 }
 
 .primary {
-  --color: var(--white);
-  --background: var(--black);
+  --color: var(--color-primary);
+  --background: var(--background-primary);
 }
 
 .secondary {
-  --color: var(--black);
-  --background: var(--white);
+  --color: var(--color-secondary);
+  --background: var(--background-secondary);
 }
 
 @media (hover: hover) {
   .primary:hover {
-    --color: var(--black);
-    --background: var(--white);
+    --color: var(--color-secondary);
+    --background: var(--background-secondary);
   }
 
   .secondary:hover {
-    --color: var(--white);
-    --background: var(--black);
+    --color: var(--color-primary);
+    --background: var(--background-primary);
   }
 }
 
 @media (hover: none) {
   .primary:active {
-    --color: var(--black);
-    --background: var(--white);
+    --color: var(--color-secondary);
+    --background: var(--background-secondary);
   }
 
   .secondary:active {
-    --color: var(--white);
-    --background: var(--black);
+    --color: var(--color-primary);
+    --background: var(--background-primary);
   }
 }
