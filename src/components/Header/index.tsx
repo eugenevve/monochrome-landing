@@ -1,6 +1,6 @@
 import { ThemeButton } from "@app/theme/ThemeButton";
+import { ButtonKind } from "@app/ui/BaseButton/BaseButton.types";
 import { Button } from "@app/ui/Button";
-import { ButtonKind } from "@app/ui/Button/Button.types";
 import { Line } from "@app/ui/Line";
 import { navigationItems } from "@app/utils/navigation";
 import { useNavigationKind } from "@app/utils/useNavigationKind";

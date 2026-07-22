@@ -1,6 +1,6 @@
 import { ThemeButton } from "@app/theme/ThemeButton";
+import { ButtonKind } from "@app/ui/BaseButton/BaseButton.types";
 import { IconButton } from "@app/ui/IconButton";
-import { IconButtonKind } from "@app/ui/IconButton/IconButton.types";
 import { Line } from "@app/ui/Line";
 import { navigationItems } from "@app/utils/navigation";
 import { useNavigationKind } from "@app/utils/useNavigationKind";
@@ -11,7 +11,7 @@ import styles from "./BottomBar.module.css";
 
 export const BottomBar: FC = () => {
   const navigate = useNavigate();
-  const getButtonKind = useNavigationKind(IconButtonKind);
+  const getButtonKind = useNavigationKind(ButtonKind);
 
   return (
     <div className={styles.container}>

@@ -1,39 +1,11 @@
-:root {
-  --color-primary: var(--black);
-  --background-primary: var(--white);
-
-  --color-secondary: var(--white);
-  --background-secondary: var(--black);
-}
-
-[data-theme="dark"] {
-  --color-primary: var(--white);
-  --background-primary: var(--black);
-
-  --color-secondary: var(--black);
-  --background-secondary: var(--white);
-}
-
 .container {
   width: fit-content;
   height: fit-content;
 
-  color: var(--color);
-  background: var(--background);
-
-  border: var(--border);
   border-radius: var(--spacing-xxl);
-  padding: var(--spacing-s) var(--spacing-m);
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: var(--spacing-s);
   font-family: var(--font-family);
   font-size: var(--fs-sm);
-
-  transition: var(--transition);
-  cursor: pointer;
 }
 
 .icon {
@@ -45,38 +17,4 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.primary {
-  --color: var(--color-primary);
-  --background: var(--background-primary);
-}
-
-.secondary {
-  --color: var(--color-secondary);
-  --background: var(--background-secondary);
-}
-
-@media (hover: hover) {
-  .primary:hover {
-    --color: var(--color-secondary);
-    --background: var(--background-secondary);
-  }
-
-  .secondary:hover {
-    --color: var(--color-primary);
-    --background: var(--background-primary);
-  }
-}
-
-@media (hover: none) {
-  .primary:active {
-    --color: var(--color-secondary);
-    --background: var(--background-secondary);
-  }
-
-  .secondary:active {
-    --color: var(--color-primary);
-    --background: var(--background-primary);
-  }
 }

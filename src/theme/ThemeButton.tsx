@@ -1,6 +1,6 @@
 import { useTheme } from "@app/theme/useTheme";
+import { ButtonKind } from "@app/ui/BaseButton/BaseButton.types";
 import { IconButton } from "@app/ui/IconButton";
-import { IconButtonKind } from "@app/ui/IconButton/IconButton.types";
 import { MoonIcon, SunIcon, DesktopIcon } from "@app/ui/Icons";
 import type { FC } from "react";
 
@@ -30,7 +30,7 @@ export const ThemeButton: FC = () => {
   };
 
   return (
-    <IconButton kind={IconButtonKind.PRIMARY} onClick={toggle}>
+    <IconButton kind={ButtonKind.PRIMARY} onClick={toggle}>
       {icon[theme]}
     </IconButton>
   );

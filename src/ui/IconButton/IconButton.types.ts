@@ -1,11 +1,8 @@
-import type { ButtonHTMLAttributes, ReactNode } from "react";
+import type { ReactNode } from "react";
 
-export interface IIconButton extends ButtonHTMLAttributes<HTMLButtonElement> {
-  kind: IconButtonKind;
+import type { ButtonKind } from "../BaseButton/BaseButton.types";
+
+export interface IIconButton {
+  kind: ButtonKind;
   children: ReactNode;
-}
-
-export enum IconButtonKind {
-  PRIMARY = "primary",
-  SECONDARY = "secondary",
 }
