@@ -1,0 +1,27 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-s);
+}
+
+.title {
+  font-size: 28px;
+}
+
+.description {
+  color: var(--gray);
+}
+
+.description,
+.about {
+  width: 50%;
+
+  font-size: 18px;
+}
+
+@media (max-width: 1024px) {
+  .description,
+  .about {
+    width: 100%;
+  }
+}
