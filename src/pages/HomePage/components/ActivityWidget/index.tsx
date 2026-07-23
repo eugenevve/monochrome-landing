@@ -1,4 +1,4 @@
-import { CategoryElement } from "@app/components/CategoryElement";
+import { CategoryItem } from "@app/components/CategoryItem";
 import { TitleDescription } from "@app/components/TitleDescription";
 import { WidgetWrapper } from "@app/components/WidgetWrapper";
 import { BrushIcon, CodeIcon, MobileIcon, WebIcon } from "@app/ui/Icons";
@@ -35,7 +35,7 @@ export const ActivityWidget: FC = () => {
       <TitleDescription title="Activity" description="Areas of activity in which I work" />
       <div className={styles.container}>
         {items.map(({ icon, title, description }) => (
-          <CategoryElement key={title} icon={icon} title={title} description={description} />
+          <CategoryItem key={title} icon={icon} title={title} description={description} />
         ))}
       </div>
     </WidgetWrapper>

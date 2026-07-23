@@ -2,10 +2,10 @@ import { ButtonKind } from "@app/ui/BaseButton/BaseButton.types";
 import { IconButton } from "@app/ui/IconButton";
 import type { FC } from "react";
 
-import styles from "./CategoryElement.module.css";
-import type { ICategoryElement } from "./CategoryElement.types";
+import styles from "./CategoryItem.module.css";
+import type { ICategoryItem } from "./CategoryItem.types";
 
-export const CategoryElement: FC<ICategoryElement> = ({ icon, title, description }) => {
+export const CategoryItem: FC<ICategoryItem> = ({ icon, title, description }) => {
   return (
     <div className={styles.container}>
       <IconButton kind={ButtonKind.PRIMARY} disabled>

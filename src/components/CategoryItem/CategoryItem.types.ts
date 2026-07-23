@@ -1,6 +1,6 @@
 import type { ReactNode } from "react";
 
-export interface ICategoryElement {
+export interface ICategoryItem {
   icon: ReactNode;
   title: string;
   description: string;
