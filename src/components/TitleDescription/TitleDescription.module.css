@@ -4,14 +4,12 @@
   gap: var(--spacing-s);
 }
 
-.description {
-  width: 50%;
-
-  font-size: 18px;
+.title {
+  font-size: 28px;
 }
 
-@media (max-width: 1024px) {
-  .description {
-    width: 100%;
-  }
+.description {
+  color: var(--gray);
+
+  font-size: 18px;
 }

@@ -1,3 +1,4 @@
+import { TitleDescription } from "@app/components/TitleDescription";
 import { WidgetWrapper } from "@app/components/WidgetWrapper";
 import { ButtonKind } from "@app/ui/BaseButton/BaseButton.types";
 import { Button } from "@app/ui/Button";
@@ -12,12 +13,11 @@ export const AboutWidget: FC = () => {
 
   return (
     <WidgetWrapper>
-      <div className={styles.section}>
-        <div className={styles.title}>Eugene (@eugenevve)</div>
-        <div className={styles.description}>Full-Stack Developer • Frontend-focused</div>
+      <div className={styles.container}>
+        <TitleDescription title="Eugene (@eugenevve)" description="Full-Stack Developer • Frontend-focused" />
       </div>
-      <div className={styles.section}>
-        <div className={styles.about}>
+      <div className={styles.container}>
+        <div className={styles.description}>
           Developing and releasing mockups and templates for developers, freely and openly accessible
         </div>
       </div>
