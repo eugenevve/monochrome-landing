@@ -13,3 +13,17 @@
 
   font-size: 18px;
 }
+
+@media (max-width: 1024px) {
+  .container {
+    gap: var(--spacing-xs);
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+}
