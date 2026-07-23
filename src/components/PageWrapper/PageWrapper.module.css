@@ -36,5 +36,7 @@
   .chapter {
     margin-top: var(--spacing-l);
     margin-bottom: var(--spacing-l);
+
+    gap: var(--spacing-l);
   }
 }
