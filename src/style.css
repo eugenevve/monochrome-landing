@@ -43,6 +43,10 @@
   --background: var(--white);
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
 
@@ -50,6 +54,6 @@ body {
   background: var(--background);
 
   font-family: var(--font-family);
-  
+
   -webkit-tap-highlight-color: transparent;
 }
