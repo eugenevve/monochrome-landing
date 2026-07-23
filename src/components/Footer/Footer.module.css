@@ -1,0 +1,18 @@
+.container {
+  margin-bottom: var(--spacing-xxl);
+  width: 100%;
+
+  background: var(--background);
+
+  border: var(--border);
+  border-radius: var(--spacing-l);
+  padding: var(--spacing-m);
+
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    margin-bottom: var(--spacing-l);
+  }
+}
