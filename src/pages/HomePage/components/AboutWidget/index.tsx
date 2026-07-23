@@ -13,9 +13,7 @@ export const AboutWidget: FC = () => {
 
   return (
     <WidgetWrapper>
-      <div className={styles.container}>
-        <TitleDescription title="Eugene (@eugenevve)" description="Full-Stack Developer • Frontend-focused" />
-      </div>
+      <TitleDescription title="Eugene (@eugenevve)" description="Full-Stack Developer • Frontend-focused" />
       <div className={styles.container}>
         <div className={styles.description}>
           Developing and releasing mockups and templates for developers, freely and openly accessible
