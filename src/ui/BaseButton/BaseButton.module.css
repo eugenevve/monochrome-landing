@@ -30,6 +30,10 @@
   cursor: pointer;
 }
 
+.container:disabled {
+  cursor: default;
+}
+
 .primary {
   --color: var(--color-primary);
   --background: var(--background-primary);
@@ -41,24 +45,24 @@
 }
 
 @media (hover: hover) {
-  .primary:hover {
+  .primary:not(:disabled):hover {
     --color: var(--color-secondary);
     --background: var(--background-secondary);
   }
 
-  .secondary:hover {
+  .secondary:not(:disabled):hover {
     --color: var(--color-primary);
     --background: var(--background-primary);
   }
 }
 
 @media (hover: none) {
-  .primary:active {
+  .primary:not(:disabled):active {
     --color: var(--color-secondary);
     --background: var(--background-secondary);
   }
 
-  .secondary:active {
+  .secondary:not(:disabled):active {
     --color: var(--color-primary);
     --background: var(--background-primary);
   }
