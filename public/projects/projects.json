@@ -1,0 +1,18 @@
+[
+  {
+    "link": "https://google.com",
+    "image": "image.png",
+    "resource": "github",
+    "title": "Project-1",
+    "description": "Project-Description-1",
+    "favorite": true
+  },
+  {
+    "link": "https://google.com",
+    "image": "image.png",
+    "resource": "figma",
+    "title": "Project-2",
+    "description": "Project-Description-2",
+    "favorite": false
+  }
+]
