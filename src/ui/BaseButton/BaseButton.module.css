@@ -28,6 +28,11 @@
 
   transition: var(--transition);
   cursor: pointer;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .container:disabled {
