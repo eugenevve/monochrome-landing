@@ -3,6 +3,7 @@ import type { FC } from "react";
 
 import { AboutMeWidget } from "./components/AboutMeWidget";
 import { CareerWidget } from "./components/CareerWidget";
+import { GitHubWidget } from "./components/GitHubWidget";
 import { SkillsWidget } from "./components/SkillsWidget";
 
 export const AboutPage: FC = () => {
@@ -11,6 +12,7 @@ export const AboutPage: FC = () => {
       <AboutMeWidget />
       <CareerWidget />
       <SkillsWidget />
+      <GitHubWidget />
     </PageWrapper>
   );
 };
