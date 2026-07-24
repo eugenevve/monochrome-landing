@@ -20,17 +20,17 @@ export const GitHubWidget: FC = () => {
 
   const items = [
     {
-      path: "https://github.com/eugenevve?tab=repositories",
+      link: "https://github.com/eugenevve?tab=repositories",
       label: "Repository",
       icon: <GitHubIcon />,
     },
     {
-      path: "https://github.com/eugenevve?tab=followers",
+      link: "https://github.com/eugenevve?tab=followers",
       label: "Followers",
       icon: <GitHubIcon />,
     },
     {
-      path: "https://github.com/eugenevve?tab=stars",
+      link: "https://github.com/eugenevve?tab=stars",
       label: "My stars",
       icon: <GitHubIcon />,
     },
@@ -55,8 +55,8 @@ export const GitHubWidget: FC = () => {
           />
         </div>
         <div className={styles.buttons}>
-          {items.map(({ label, path, icon }) => (
-            <Button key={path} kind={ButtonKind.SECONDARY} onClick={() => window.open(path)} icon={icon}>
+          {items.map(({ link, label, icon }) => (
+            <Button key={link} kind={ButtonKind.SECONDARY} onClick={() => window.open(link)} icon={icon}>
               {label}
             </Button>
           ))}

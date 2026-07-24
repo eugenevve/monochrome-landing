@@ -2,7 +2,7 @@ import { TitleDescription } from "@app/components/TitleDescription";
 import { WidgetWrapper } from "@app/components/WidgetWrapper";
 import { ButtonKind } from "@app/ui/BaseButton/BaseButton.types";
 import { Button } from "@app/ui/Button";
-import { FigmaIcon, GitHubIcon, LinkedInIcon } from "@app/ui/Icons";
+import { FigmaIcon, GitHubIcon, InstagramIcon, LinkedInIcon } from "@app/ui/Icons";
 import type { FC } from "react";
 
 import styles from "./ContactsWidget.module.css";
@@ -10,19 +10,24 @@ import styles from "./ContactsWidget.module.css";
 export const ContactsWidget: FC = () => {
   const items = [
     {
-      path: "https://github.com/eugenevve",
-      label: "GitHub",
+      link: "https://github.com/eugenevve",
       icon: <GitHubIcon />,
+      label: "GitHub",
     },
     {
-      path: "https://www.figma.com/@eugenevve",
-      label: "Figma",
+      link: "https://www.figma.com/@eugenevve",
       icon: <FigmaIcon />,
+      label: "Figma",
     },
     {
-      path: "https://www.linkedin.com/in/eugenevve",
-      label: "LinkedIn",
+      link: "https://www.linkedin.com/in/eugenevve",
       icon: <LinkedInIcon />,
+      label: "LinkedIn",
+    },
+    {
+      link: "https://www.instagram.com/eugenevve",
+      icon: <InstagramIcon />,
+      label: "Instagram",
     },
   ];
 
@@ -30,8 +35,8 @@ export const ContactsWidget: FC = () => {
     <WidgetWrapper>
       <TitleDescription title="Contacts" description="I am present on social networks, you can follow me" />
       <div className={styles.container}>
-        {items.map(({ label, path, icon }) => (
-          <Button key={path} kind={ButtonKind.SECONDARY} onClick={() => window.open(path)} icon={icon}>
+        {items.map(({ label, link, icon }) => (
+          <Button key={link} kind={ButtonKind.SECONDARY} onClick={() => window.open(link)} icon={icon}>
             {label}
           </Button>
         ))}
