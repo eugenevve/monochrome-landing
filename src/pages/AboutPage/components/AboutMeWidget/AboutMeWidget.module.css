@@ -3,13 +3,3 @@
   flex-direction: column;
   gap: var(--spacing-xl);
 }
-
-.description {
-  font-size: var(--fs-lg);
-}
-
-@media (max-width: 1024px) {
-  .description {
-    width: 100%;
-  }
-}

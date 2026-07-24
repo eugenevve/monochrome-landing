@@ -9,11 +9,11 @@ export const AboutMeWidget: FC = () => {
     <WidgetWrapper>
       <TitleDescription title="About me" description="Story about yourself" />
       <div className={styles.container}>
-        <div className={styles.description}>
+        <div>
           I like it building web products from idea to production. While my primary focus is frontend development, I
           also work comfortably across the backend, allowing me to develop complete, end-to-end solutions.
         </div>
-        <div className={styles.description}>
+        <div>
           I enjoy solving real problems and creating interfaces that feel intuitive and polished. Clean architecture,
           maintainable code, and continuous learning are values I bring to every project.
         </div>
