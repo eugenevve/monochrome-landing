@@ -10,20 +10,26 @@
   border-radius: var(--spacing-l);
   padding: var(--spacing-s) var(--spacing-m);
 
-  display: flex;
-  align-items: center;
   justify-content: space-between;
 
   z-index: var(--index);
 }
 
 .menu {
-  display: flex;
   gap: var(--spacing-m);
 }
 
 .section {
-  display: flex;
-  align-items: center;
   gap: var(--spacing-m);
+}
+
+.container,
+.menu,
+.section {
+  display: flex;
+}
+
+.container,
+.section {
+  align-items: center;
 }

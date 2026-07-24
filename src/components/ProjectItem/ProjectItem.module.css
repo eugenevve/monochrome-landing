@@ -7,8 +7,6 @@
   border-radius: var(--spacing-m);
   padding: var(--spacing-l) var(--spacing-l) var(--spacing-m) var(--spacing-l);
 
-  display: flex;
-  flex-direction: column;
   gap: var(--spacing-m);
 
   text-decoration: none;
@@ -26,15 +24,23 @@
 }
 
 .section {
-  display: flex;
-  flex-direction: column;
   gap: var(--spacing-xs);
 }
 
 .titleContainer {
-  display: flex;
   align-items: center;
   gap: var(--spacing-s);
+}
+
+.container,
+.section,
+.titleContainer {
+  display: flex;
+}
+
+.container,
+.section {
+  flex-direction: column;
 }
 
 .resources {

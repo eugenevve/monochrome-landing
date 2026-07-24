@@ -14,7 +14,6 @@
   border-radius: var(--spacing-m);
   padding: var(--spacing-m);
 
-  display: flex;
   align-items: center;
   gap: var(--spacing-m);
 
@@ -22,8 +21,12 @@
 }
 
 .section {
-  display: flex;
   flex-direction: column;
+}
+
+.container,
+.section {
+  display: flex;
 }
 
 .title {

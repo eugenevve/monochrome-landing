@@ -1,20 +1,26 @@
 .container {
-  display: flex;
-  align-items: center;
   gap: var(--spacing-m);
 }
 
 .section {
-  display: flex;
   flex-direction: column;
   gap: var(--spacing-xs);
 }
 
 .titleContainer {
-  display: flex;
   flex-wrap: wrap;
-  align-items: center;
   gap: var(--spacing-s);
+}
+
+.container,
+.section,
+.titleContainer {
+  display: flex;
+}
+
+.container,
+.titleContainer {
+  align-items: center;
 }
 
 .title {

@@ -9,22 +9,22 @@
   border: var(--border);
   border-radius: var(--spacing-l);
   padding: var(--spacing-s);
-
-  display: flex;
-  align-items: center;
-  gap: var(--spacing-xl);
 }
 
 .menu {
   width: 100%;
 
-  display: flex;
-  align-items: center;
   justify-content: space-between;
 }
 
+.menu,
+.container,
 .section {
   display: flex;
   align-items: center;
+}
+
+.container,
+.section {
   gap: var(--spacing-xl);
 }
