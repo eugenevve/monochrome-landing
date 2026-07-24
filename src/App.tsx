@@ -2,6 +2,7 @@ import type { FC } from "react";
 import { BrowserRouter, Route, Routes } from "react-router";
 
 import { Head } from "./components/Head";
+import { Loader } from "./components/Loader";
 import { useOnlineStatus } from "./hooks/useOnline";
 import { AboutPage } from "./pages/AboutPage";
 import { HomePage } from "./pages/HomePage";
@@ -19,6 +20,7 @@ export const App: FC = () => {
   return (
     <>
       <Head />
+      <Loader />
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<HomePage />} />
