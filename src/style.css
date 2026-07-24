@@ -24,10 +24,10 @@
   --font-family: "Roboto";
 
   /* Font-size */
-  --fs-sm: 16px; /* Forms, Buttons */
-  --fs-md: 18px; /* Content, Description */
-  --fs-lg: 20px; /* Section headings */
-  --fs-xl: 30px; /* Big headlines */
+  --fs-sm: 12px;
+  --fs-md: 16px;
+  --fs-lg: 18px;
+  --fs-xl: 24px;
 
   /* Transition */
   --transition: 200ms;

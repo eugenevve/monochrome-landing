@@ -50,7 +50,7 @@
 .title {
   color: var(--content);
 
-  font-size: 18px;
+  font-size: var(--fs-lg);
 }
 
 .description {

@@ -32,7 +32,7 @@
 .title {
   color: var(--color);
 
-  font-size: 18px;
+  font-size: var(--fs-lg);
 }
 
 .description {

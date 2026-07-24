@@ -12,7 +12,7 @@
 
 .title {
   text-align: center;
-  font-size: 18px;
+  font-size: var(--fs-lg);
 }
 
 .section {

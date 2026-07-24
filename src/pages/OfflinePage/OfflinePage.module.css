@@ -10,7 +10,7 @@
 }
 
 .title {
-  font-size: 28px;
+  font-size: var(--fs-xl);
 }
 
 .description {
