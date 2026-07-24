@@ -6,8 +6,6 @@
 
 .description {
   width: 50%;
-
-  font-size: var(--fs-lg);
 }
 
 @media (max-width: 1024px) {
