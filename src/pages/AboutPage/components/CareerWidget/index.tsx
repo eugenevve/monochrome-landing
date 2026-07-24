@@ -1,7 +1,7 @@
 import { CarrerItem } from "@app/components/CarrerItem";
 import { TitleDescription } from "@app/components/TitleDescription";
 import { WidgetWrapper } from "@app/components/WidgetWrapper";
-import { SchoolIcon, SuitcaseIcon } from "@app/ui/Icons";
+import { AwordIcon, SchoolIcon, SuitcaseIcon, UniversityIcon } from "@app/ui/Icons";
 import type { FC } from "react";
 
 import styles from "./CareerWidget.module.css";
@@ -11,14 +11,71 @@ export const CareerWidget: FC = () => {
     {
       icon: <SuitcaseIcon />,
       badge: "January 2026",
-      title: "January 2026",
+      title: "Work-Name | Company",
+      description:
+        "Description",
+    },
+    {
+      icon: <UniversityIcon />,
+      badge: "January 2026",
+      title: "Work-Name | Company",
+      description:
+        "Description",
+    },
+    {
+      icon: <SuitcaseIcon />,
+      badge: "January 2026",
+      title: "Work-Name | Company",
+      description:
+        "Description",
+    },
+    {
+      icon: <SuitcaseIcon />,
+      badge: "January 2026",
+      title: "Work-Name | Company",
+      description:
+        "Description",
+    },
+    {
+      icon: <SuitcaseIcon />,
+      badge: "January 2026",
+      title: "Work-Name | Company",
+      description:
+        "Description",
+    },
+    {
+      icon: <UniversityIcon />,
+      badge: "January 2026",
+      title: "Work-Name | Company",
+      description:
+        "Description",
+    },
+    {
+      icon: <SuitcaseIcon />,
+      badge: "January 2026",
+      title: "Work-Name | Company",
+      description:
+        "Description",
+    },
+    {
+      icon: <SuitcaseIcon />,
+      badge: "January 2026",
+      title: "Work-Name | Company",
+      description:
+        "Description",
+    },
+    {
+      icon: <AwordIcon />,
+      badge: "January 2026",
+      title: "Work-Name | Company",
       description: "Description",
     },
     {
       icon: <SchoolIcon />,
       badge: "January 2026",
-      title: "January 2026",
-      description: "Description",
+      title: "Work-Name | Company",
+      description:
+        "Description",
     },
   ];
 
