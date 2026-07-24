@@ -16,6 +16,7 @@
   --spacing-l: 15px;
   --spacing-xl: 20px;
   --spacing-xxl: 30px;
+  --spacing-tr: -5px;
 
   /* Border */
   --border: var(--spacing-xs) solid var(--content);

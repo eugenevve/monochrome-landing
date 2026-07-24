@@ -8,6 +8,8 @@
   padding: var(--spacing-m);
 
   gap: var(--spacing-m);
+
+  transition: var(--transition);
 }
 
 .title {
@@ -23,4 +25,16 @@
 .section {
   display: flex;
   flex-direction: column;
+}
+
+@media (hover: hover) {
+  .container:hover {
+    transform: translateY(var(--spacing-tr));
+  }
+}
+
+@media (hover: none) {
+  .container:active {
+    transform: translateY(var(--spacing-tr));
+  }
 }

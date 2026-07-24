@@ -42,13 +42,13 @@
 @media (min-width: 1025px) {
   @media (hover: hover) {
     .container:hover {
-      transform: translateY(-5px);
+      transform: translateY(var(--spacing-tr));
     }
   }
 
   @media (hover: none) {
     .container:active {
-      transform: translateY(-5px);
+      transform: translateY(var(--spacing-tr));
     }
   }
 }
