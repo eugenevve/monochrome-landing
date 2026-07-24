@@ -2,11 +2,13 @@ import { PageWrapper } from "@app/components/PageWrapper";
 import type { FC } from "react";
 
 import { AboutMeWidget } from "./components/AboutMeWidget";
+import { CareerWidget } from "./components/CareerWidget";
 
 export const AboutPage: FC = () => {
   return (
     <PageWrapper>
       <AboutMeWidget />
+      <CareerWidget />
     </PageWrapper>
   );
 };
