@@ -31,6 +31,9 @@
 
   /* Transition */
   --transition: 200ms;
+
+  /* Index */
+  --index: 1;
 }
 
 [data-theme="dark"] {
