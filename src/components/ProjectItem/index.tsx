@@ -14,7 +14,7 @@ export const ProjectItem: FC<IProjectItem> = ({ item }) => {
 
   return (
     <a href={item.link} className={styles.container}>
-      <img src={`/projects/images/${item.image}`} alt={item.title} className={styles.image} draggable={false} />
+      <img src={`/projects/${item.image}`} alt={item.title} className={styles.image} draggable={false} />
       <div className={styles.section}>
         <div className={styles.titleContainer}>
           <div className={styles.resources}>
