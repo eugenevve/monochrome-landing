@@ -34,7 +34,8 @@
   --transition: 200ms;
 
   /* Index */
-  --index: 1;
+  --header: 1;
+  --loader: 2;
 }
 
 [data-theme="dark"] {
