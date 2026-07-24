@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router";
 
 import { Head } from "./components/Head";
 import { useOnlineStatus } from "./hooks/useOnline";
+import { AboutPage } from "./pages/AboutPage";
 import { HomePage } from "./pages/HomePage";
 import { NotFoundPage } from "./pages/NotFoundPage";
 import { OfflinePage } from "./pages/OfflinePage";
@@ -22,6 +23,7 @@ export const App: FC = () => {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/projects" element={<ProjectsPage />} />
+          <Route path="/about" element={<AboutPage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </BrowserRouter>
