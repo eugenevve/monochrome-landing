@@ -8,16 +8,34 @@ import styles from "./SkillsWidget.module.css";
 export const SkillsWidget: FC = () => {
   const items = [
     {
-      title: "SkillName-1",
-      skills: ["Skill-1", "Skill-2"],
+      title: "Languages",
+      skills: ["HTML5", "CSS3", "JavaScript", "TypeScript", "Python"],
     },
     {
-      title: "SkillName-2",
-      skills: ["Skill-1", "Skill-2"],
+      title: "Frontend",
+      skills: ["React", "React Native", "Next.js", "Vite", "Electron"],
     },
     {
-      title: "SkillName-3",
-      skills: ["Skill-1", "Skill-2"],
+      title: "Backend",
+      skills: ["FastAPI", "PostgreSQL", "SQLite", "File System", "JWT Authentication"],
+    },
+    {
+      title: "Tools",
+      skills: ["Git & GitHub & GitLab", "Figma", "VS Code", "Termius", "NPM"],
+    },
+    {
+      title: "Practices",
+      skills: [
+        "Responsive Design",
+        "Component-driven Development",
+        "Clean Architecture",
+        "Design & Prototyping",
+        "CI/CD",
+      ],
+    },
+    {
+      title: "DevOps",
+      skills: ["Docker", "Nginx", "GitHub Actions", "Linux", "Bash Scripting"],
     },
   ];
 
