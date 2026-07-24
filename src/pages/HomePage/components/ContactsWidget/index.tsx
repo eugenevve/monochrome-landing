@@ -36,7 +36,7 @@ export const ContactsWidget: FC = () => {
       <TitleDescription title="Contacts" description="I am present on social networks, you can follow me" />
       <div className={styles.container}>
         {items.map(({ label, link, icon }) => (
-          <Button key={link} kind={ButtonKind.SECONDARY} onClick={() => window.open(link)} icon={icon}>
+          <Button key={link} kind={ButtonKind.SECONDARY} link={link} icon={icon}>
             {label}
           </Button>
         ))}

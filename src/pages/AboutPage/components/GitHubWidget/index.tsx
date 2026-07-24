@@ -56,7 +56,7 @@ export const GitHubWidget: FC = () => {
         </div>
         <div className={styles.buttons}>
           {items.map(({ link, label, icon }) => (
-            <Button key={link} kind={ButtonKind.SECONDARY} onClick={() => window.open(link)} icon={icon}>
+            <Button key={link} kind={ButtonKind.SECONDARY} link={link} icon={icon}>
               {label}
             </Button>
           ))}
