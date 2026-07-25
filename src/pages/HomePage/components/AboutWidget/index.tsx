@@ -13,10 +13,10 @@ export const AboutWidget: FC = () => {
 
   return (
     <WidgetWrapper>
-      <TitleDescription title="Eugene (@eugenevve)" description="Full-Stack Developer • Frontend-focused" />
+      <TitleDescription title="Name (@username)" description="Type of activity" />
       <div className={styles.container}>
         <div className={styles.description}>
-          Developing and releasing mockups and templates for developers, freely and openly accessible
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry
         </div>
       </div>
       <Button kind={ButtonKind.SECONDARY} icon={<CodeIcon />} onClick={() => void navigate("/projects")}>

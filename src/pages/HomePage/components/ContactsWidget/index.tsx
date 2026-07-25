@@ -10,22 +10,22 @@ import styles from "./ContactsWidget.module.css";
 export const ContactsWidget: FC = () => {
   const items = [
     {
-      link: "https://github.com/eugenevve",
+      link: "https://github.com/",
       icon: <GitHubIcon />,
       label: "GitHub",
     },
     {
-      link: "https://www.figma.com/@eugenevve",
+      link: "https://www.figma.com/",
       icon: <FigmaIcon />,
       label: "Figma",
     },
     {
-      link: "https://www.linkedin.com/in/eugenevve",
+      link: "https://www.linkedin.com/",
       icon: <LinkedInIcon />,
       label: "LinkedIn",
     },
     {
-      link: "https://www.instagram.com/eugenevve",
+      link: "https://www.instagram.com/",
       icon: <InstagramIcon />,
       label: "Instagram",
     },

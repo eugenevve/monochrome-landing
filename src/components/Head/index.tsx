@@ -11,7 +11,7 @@ export const Head: FC = () => {
   return (
     <Helmet>
       {/* Basic */}
-      <title>eugenevve</title>
+      <title>username</title>
       <link rel="manifest" href="/manifest.webmanifest" />
       <meta name="description" content="Developer" />
       <meta name="keywords" content="dev" />
@@ -32,7 +32,7 @@ export const Head: FC = () => {
       {/* Share */}
       <meta property="og:url" content="/" />
       <meta property="og:type" content="website" />
-      <meta property="og:title" content="eugenevve" />
+      <meta property="og:title" content="username" />
       <meta property="og:description" content="Developer" />
       <meta property="og:image" content="/favicons/favicon-512-512.png" />
     </Helmet>

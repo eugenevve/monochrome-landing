@@ -20,17 +20,17 @@ export const GitHubWidget: FC = () => {
 
   const items = [
     {
-      link: "https://github.com/eugenevve?tab=repositories",
+      link: "https://github.com/",
       label: "Repository",
       icon: <GitHubIcon />,
     },
     {
-      link: "https://github.com/eugenevve?tab=followers",
+      link: "https://github.com/",
       label: "Followers",
       icon: <GitHubIcon />,
     },
     {
-      link: "https://github.com/eugenevve?tab=stars",
+      link: "https://github.com/",
       label: "My stars",
       icon: <GitHubIcon />,
     },

@@ -10,23 +10,23 @@ export const ActivityWidget: FC = () => {
   const items = [
     {
       icon: <WebIcon />,
-      title: "Website",
-      description: "Landing | Website",
+      title: "Activity",
+      description: "Description",
     },
     {
       icon: <MobileIcon />,
-      title: "Mobile App",
-      description: "iOS | Android",
+      title: "Activity",
+      description: "Description",
     },
     {
       icon: <BrushIcon />,
-      title: "Design",
-      description: "Landing | Website",
+      title: "Activity",
+      description: "Description",
     },
     {
       icon: <CodeIcon />,
-      title: "Testing",
-      description: "In the direction",
+      title: "Activity",
+      description: "Description",
     },
   ];
 
