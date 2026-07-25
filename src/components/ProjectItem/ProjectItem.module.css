@@ -1,5 +1,6 @@
 .container {
   width: 100%;
+  min-width: 0;
 
   background: var(--background);
 
@@ -55,6 +56,10 @@
 
 .description {
   color: var(--gray);
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 @media (hover: hover) {
