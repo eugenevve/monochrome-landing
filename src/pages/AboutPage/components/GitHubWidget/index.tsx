@@ -1,10 +1,10 @@
 import { TitleDescription } from "@app/components/TitleDescription";
 import { WidgetWrapper } from "@app/components/WidgetWrapper";
+import { GITHUB_LINKS, GITHUB_USERNAME } from "@app/data/github";
 import { ThemeKind } from "@app/theme/Theme.types";
 import { useTheme } from "@app/theme/useTheme";
 import { ButtonKind } from "@app/ui/BaseButton/BaseButton.types";
 import { Button } from "@app/ui/Button";
-import { GitHubIcon } from "@app/ui/Icons";
 import type { FC } from "react";
 import { GitHubCalendar } from "react-github-calendar";
 
@@ -18,31 +18,13 @@ export const GitHubWidget: FC = () => {
     dark: ["var(--black)", "#2e2e2e", "#4a4a4d", "#7a7a7d", "var(--white)"],
   };
 
-  const items = [
-    {
-      link: "https://github.com/",
-      label: "Repository",
-      icon: <GitHubIcon />,
-    },
-    {
-      link: "https://github.com/",
-      label: "Followers",
-      icon: <GitHubIcon />,
-    },
-    {
-      link: "https://github.com/",
-      label: "My stars",
-      icon: <GitHubIcon />,
-    },
-  ];
-
   return (
     <WidgetWrapper>
       <TitleDescription title="Github contributions" description="All contributions" />
       <div className={styles.container}>
         <div className={styles.section}>
           <GitHubCalendar
-            username="eugenevve"
+            username={GITHUB_USERNAME}
             blockMargin={3.5}
             blockRadius={4}
             fontSize={12}
@@ -55,7 +37,7 @@ export const GitHubWidget: FC = () => {
           />
         </div>
         <div className={styles.buttons}>
-          {items.map(({ link, label, icon }) => (
+          {GITHUB_LINKS.map(({ link, label, icon }) => (
             <Button key={link} kind={ButtonKind.SECONDARY} link={link} icon={icon}>
               {label}
             </Button>

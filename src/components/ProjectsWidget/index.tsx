@@ -1,80 +1,14 @@
 import { ProjectItem } from "@app/components/ProjectItem";
 import { TitleDescription } from "@app/components/TitleDescription";
 import { WidgetWrapper } from "@app/components/WidgetWrapper";
+import { PROJECTS } from "@app/data/projects";
 import type { FC } from "react";
 
 import styles from "./ProjectsWidget.module.css";
 import type { IProjectsWidget } from "./ProjectsWidget.types";
 
 export const ProjectsWidget: FC<IProjectsWidget> = ({ favorite }) => {
-  const items = [
-    {
-      link: "https://github.com/",
-      image: "image.png",
-      resource: "github",
-      title: "Project name",
-      description: "Description",
-      favorite: true,
-    },
-    {
-      link: "https://github.com/",
-      image: "image.png",
-      resource: "github",
-      title: "Project name",
-      description: "Description",
-      favorite: true,
-    },
-    {
-      link: "https://github.com/",
-      image: "image.png",
-      resource: "github",
-      title: "Project name",
-      description: "Description",
-      favorite: false,
-    },
-    {
-      link: "https://github.com/",
-      image: "image.png",
-      resource: "github",
-      title: "Project name",
-      description: "Description",
-      favorite: false,
-    },
-    {
-      link: "https://www.figma.com/",
-      image: "image.png",
-      resource: "figma",
-      title: "Project name",
-      description: "Description",
-      favorite: true,
-    },
-    {
-      link: "https://www.figma.com/",
-      image: "image.png",
-      resource: "figma",
-      title: "Project name",
-      description: "Description",
-      favorite: true,
-    },
-    {
-      link: "https://www.figma.com/",
-      image: "image.png",
-      resource: "figma",
-      title: "Project name",
-      description: "Description",
-      favorite: false,
-    },
-    {
-      link: "https://www.figma.com/",
-      image: "image.png",
-      resource: "figma",
-      title: "Project name",
-      description: "Description",
-      favorite: false,
-    },
-  ];
-
-  const filtered = favorite ? items.filter((item) => item.favorite) : items;
+  const filtered = favorite ? PROJECTS.filter((item) => item.favorite) : PROJECTS;
 
   return (
     <WidgetWrapper>

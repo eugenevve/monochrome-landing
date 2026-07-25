@@ -1,5 +1,6 @@
 import { TitleDescription } from "@app/components/TitleDescription";
 import { WidgetWrapper } from "@app/components/WidgetWrapper";
+import { HOME_DESCRIPTION, PROFILE } from "@app/data/profile";
 import { ButtonKind } from "@app/ui/BaseButton/BaseButton.types";
 import { Button } from "@app/ui/Button";
 import { CodeIcon } from "@app/ui/Icons";
@@ -13,10 +14,10 @@ export const AboutWidget: FC = () => {
 
   return (
     <WidgetWrapper>
-      <TitleDescription title="Name (@username)" description="Type of activity" />
+      <TitleDescription title={`Name (@${PROFILE.username})`} description={HOME_DESCRIPTION.description} />
       <div className={styles.container}>
         <div className={styles.description}>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry
+          {HOME_DESCRIPTION.about}
         </div>
       </div>
       <Button kind={ButtonKind.SECONDARY} icon={<CodeIcon />} onClick={() => void navigate("/projects")}>

@@ -1,3 +1,4 @@
+import { PROFILE } from "@app/data/profile";
 import { useIsMobileQuery } from "@app/hooks/useIsMobileQuery";
 import type { FC } from "react";
 
@@ -12,7 +13,7 @@ export const PageWrapper: FC<IPageWrapper> = ({ title, children }) => {
 
   return (
     <>
-      {title && <title>{`username - ${title}`}</title>}
+      {title && <title>{`${PROFILE.username} - ${title}`}</title>}
       <div className={styles.container}>
         <div className={styles.content}>
           {!isMobile && <Header />}

@@ -1,3 +1,4 @@
+import { PROFILE } from "@app/data/profile";
 import { ThemeKind } from "@app/theme/Theme.types";
 import { useTheme } from "@app/theme/useTheme";
 import type { FC } from "react";
@@ -11,7 +12,7 @@ export const Head: FC = () => {
   return (
     <Helmet>
       {/* Basic */}
-      <title>username</title>
+      <title>{PROFILE.username}</title>
       <link rel="manifest" href="/manifest.webmanifest" />
       <meta name="description" content="Developer" />
       <meta name="keywords" content="dev" />
@@ -32,7 +33,7 @@ export const Head: FC = () => {
       {/* Share */}
       <meta property="og:url" content="/" />
       <meta property="og:type" content="website" />
-      <meta property="og:title" content="username" />
+      <meta property="og:title" content={PROFILE.username} />
       <meta property="og:description" content="Developer" />
       <meta property="og:image" content="/favicons/favicon-512-512.png" />
     </Helmet>
