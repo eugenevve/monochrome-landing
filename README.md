@@ -69,7 +69,7 @@ The main goals are:
 Clone the repository:
 
 ```bash
-git clone https://github.com/eugenevve/monochrome-landing-page.git
+git clone https://github.com/eugenevve/monochrome-landing.git
 cd monochrome-landing-page
 ```
 
