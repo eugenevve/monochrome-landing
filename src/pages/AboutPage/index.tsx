@@ -8,7 +8,7 @@ import { SkillsWidget } from "./components/SkillsWidget";
 
 export const AboutPage: FC = () => {
   return (
-    <PageWrapper>
+    <PageWrapper title="about">
       <AboutMeWidget />
       <CareerWidget />
       <SkillsWidget />

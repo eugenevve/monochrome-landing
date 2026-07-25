@@ -4,7 +4,7 @@ import type { FC } from "react";
 
 export const ProjectsPage: FC = () => {
   return (
-    <PageWrapper>
+    <PageWrapper title="projects">
       <ProjectsWidget />
     </PageWrapper>
   );

@@ -7,17 +7,20 @@ import { BottomBar } from "../BottomBar";
 import { Footer } from "../Footer";
 import { Header } from "../Header";
 
-export const PageWrapper: FC<IPageWrapper> = ({ children }) => {
+export const PageWrapper: FC<IPageWrapper> = ({ title, children }) => {
   const isMobile = useIsMobileQuery();
 
   return (
-    <div className={styles.container}>
-      <div className={styles.content}>
-        {!isMobile && <Header />}
-        <div className={styles.chapter}>{children}</div>
-        <Footer />
-        {isMobile && <BottomBar />}
+    <>
+      {title && <title>{`username - ${title}`}</title>}
+      <div className={styles.container}>
+        <div className={styles.content}>
+          {!isMobile && <Header />}
+          <div className={styles.chapter}>{children}</div>
+          <Footer />
+          {isMobile && <BottomBar />}
+        </div>
       </div>
-    </div>
+    </>
   );
 };

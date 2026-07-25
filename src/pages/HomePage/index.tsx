@@ -8,7 +8,7 @@ import { ContactsWidget } from "./components/ContactsWidget";
 
 export const HomePage: FC = () => {
   return (
-    <PageWrapper>
+    <PageWrapper title="home">
       <AboutWidget />
       <ActivityWidget />
       <ProjectsWidget favorite />
