@@ -12,57 +12,13 @@ export const CareerWidget: FC = () => {
       icon: <SuitcaseIcon />,
       badge: "January 2026",
       title: "Work-Name | Company",
-      description:
-        "Description",
+      description: "Description",
     },
     {
       icon: <UniversityIcon />,
       badge: "January 2026",
       title: "Work-Name | Company",
-      description:
-        "Description",
-    },
-    {
-      icon: <SuitcaseIcon />,
-      badge: "January 2026",
-      title: "Work-Name | Company",
-      description:
-        "Description",
-    },
-    {
-      icon: <SuitcaseIcon />,
-      badge: "January 2026",
-      title: "Work-Name | Company",
-      description:
-        "Description",
-    },
-    {
-      icon: <SuitcaseIcon />,
-      badge: "January 2026",
-      title: "Work-Name | Company",
-      description:
-        "Description",
-    },
-    {
-      icon: <UniversityIcon />,
-      badge: "January 2026",
-      title: "Work-Name | Company",
-      description:
-        "Description",
-    },
-    {
-      icon: <SuitcaseIcon />,
-      badge: "January 2026",
-      title: "Work-Name | Company",
-      description:
-        "Description",
-    },
-    {
-      icon: <SuitcaseIcon />,
-      badge: "January 2026",
-      title: "Work-Name | Company",
-      description:
-        "Description",
+      description: "Description",
     },
     {
       icon: <AwordIcon />,
@@ -74,8 +30,7 @@ export const CareerWidget: FC = () => {
       icon: <SchoolIcon />,
       badge: "January 2026",
       title: "Work-Name | Company",
-      description:
-        "Description",
+      description: "Description",
     },
   ];
 
