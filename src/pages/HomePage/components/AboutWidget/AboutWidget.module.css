@@ -8,7 +8,7 @@
   width: 50%;
 }
 
-@media (max-width: 1024px) {
+@media (width <= 1024px) {
   .description {
     width: 100%;
   }

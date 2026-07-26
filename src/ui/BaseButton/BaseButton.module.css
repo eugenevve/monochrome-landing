@@ -1,7 +1,6 @@
 :root {
   --color-primary: var(--black);
   --background-primary: var(--white);
-
   --color-secondary: var(--white);
   --background-secondary: var(--black);
 }
@@ -9,29 +8,21 @@
 [data-theme="dark"] {
   --color-primary: var(--white);
   --background-primary: var(--black);
-
   --color-secondary: var(--black);
   --background-secondary: var(--white);
 }
 
 .container {
-  color: var(--color);
-  background: var(--background);
-
-  border: var(--border);
-  padding: var(--spacing-s) var(--spacing-m);
-
   display: flex;
-  align-items: center;
   justify-content: center;
-  gap: var(--spacing-s);
-
+  align-items: center;
+  padding: var(--spacing-s) var(--spacing-m);
+  border: var(--border);
+  background: var(--background);
+  color: var(--color);
   transition: var(--transition);
+  gap: var(--spacing-s);
   cursor: pointer;
-
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
   user-select: none;
 }
 

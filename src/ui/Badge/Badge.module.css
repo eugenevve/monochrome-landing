@@ -1,15 +1,11 @@
 .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: fit-content;
-
-  background: var(--background);
-
+  padding: var(--spacing-xs) var(--spacing-s);
   border: var(--border);
   border-radius: var(--spacing-l);
-  padding: var(--spacing-xs) var(--spacing-s);
-
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
+  background: var(--background);
   font-size: var(--fs-sm);
 }

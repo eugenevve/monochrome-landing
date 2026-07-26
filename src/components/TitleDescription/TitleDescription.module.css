@@ -9,11 +9,10 @@
 
 .description {
   color: var(--gray);
-
   font-size: var(--fs-lg);
 }
 
-@media (max-width: 1024px) {
+@media (width <= 1024px) {
   .description {
     font-size: var(--fs-md);
   }

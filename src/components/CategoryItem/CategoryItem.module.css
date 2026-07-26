@@ -7,17 +7,13 @@
 }
 
 .container {
-  width: 100%;
-
-  background: var(--content);
-
-  border-radius: var(--spacing-m);
-  padding: var(--spacing-m);
-
   align-items: center;
-  gap: var(--spacing-m);
-
+  width: 100%;
+  padding: var(--spacing-m);
+  border-radius: var(--spacing-m);
+  background: var(--content);
   transition: var(--transition);
+  gap: var(--spacing-m);
 }
 
 .section {
@@ -31,7 +27,6 @@
 
 .title {
   color: var(--color);
-
   font-size: var(--fs-lg);
 }
 
@@ -39,7 +34,7 @@
   color: var(--gray);
 }
 
-@media (min-width: 1025px) {
+@media (width >= 1025px) {
   @media (hover: hover) {
     .container:hover {
       transform: translateY(var(--spacing-tr));
@@ -53,14 +48,13 @@
   }
 }
 
-@media (max-width: 1024px) {
+@media (width <= 1024px) {
   .container {
-    background: var(--background);
-
     padding: 0;
+    background: var(--background);
   }
 
   .title {
-    color: currentColor;
+    color: currentcolor;
   }
 }

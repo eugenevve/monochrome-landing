@@ -1,17 +1,14 @@
 .container {
-  margin-bottom: var(--spacing-xxl);
   width: 100%;
-
-  background: var(--background);
-
+  padding: var(--spacing-m);
   border: var(--border);
   border-radius: var(--spacing-l);
-  padding: var(--spacing-m);
-
+  background: var(--background);
+  margin-bottom: var(--spacing-xxl);
   text-align: center;
 }
 
-@media (max-width: 1024px) {
+@media (width <= 1024px) {
   .container {
     margin-bottom: var(--spacing-l);
   }

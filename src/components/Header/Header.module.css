@@ -1,17 +1,13 @@
 .container {
   position: sticky;
   top: var(--spacing-s);
-  margin-top: var(--spacing-xxl);
+  justify-content: space-between;
   width: 100%;
-
-  background: var(--background);
-
+  padding: var(--spacing-s) var(--spacing-m);
   border: var(--border);
   border-radius: var(--spacing-l);
-  padding: var(--spacing-s) var(--spacing-m);
-
-  justify-content: space-between;
-
+  background: var(--background);
+  margin-top: var(--spacing-xxl);
   z-index: var(--header);
 }
 

@@ -1,17 +1,14 @@
 .container {
   width: 40px;
   height: 40px;
-
   border-radius: var(--spacing-m);
 }
 
 .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 20px;
   height: 20px;
-
   fill: var(--color);
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }

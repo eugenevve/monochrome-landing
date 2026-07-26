@@ -1,20 +1,17 @@
 .container {
   position: sticky;
   bottom: max(var(--spacing-s), env(safe-area-inset-bottom));
-  margin-bottom: max(var(--spacing-l), env(safe-area-inset-bottom));
   width: 100%;
-
-  background: var(--background);
-
+  padding: var(--spacing-s);
   border: var(--border);
   border-radius: var(--spacing-l);
-  padding: var(--spacing-s);
+  background: var(--background);
+  margin-bottom: max(var(--spacing-l), env(safe-area-inset-bottom));
 }
 
 .menu {
-  width: 100%;
-
   justify-content: space-between;
+  width: 100%;
 }
 
 .menu,

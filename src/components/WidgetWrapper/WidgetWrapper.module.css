@@ -1,21 +1,17 @@
 .container {
-  width: 100%;
-
-  background: var(--background);
-
-  border: var(--border);
-  border-radius: var(--spacing-l);
-  padding: var(--spacing-l);
-
   display: flex;
   flex-direction: column;
+  width: 100%;
+  padding: var(--spacing-l);
+  border: var(--border);
+  border-radius: var(--spacing-l);
+  background: var(--background);
   gap: var(--spacing-xl);
 }
 
-@media (max-width: 1024px) {
+@media (width <= 1024px) {
   .container {
     padding: var(--spacing-m);
-
     gap: var(--spacing-l);
   }
 }

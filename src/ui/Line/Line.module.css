@@ -1,12 +1,10 @@
 .line {
-  background: var(--content);
-
   border-radius: var(--spacing-l);
+  background: var(--content);
 }
 
 .vertical {
   width: var(--spacing-xs);
-
   align-self: stretch;
 }
 

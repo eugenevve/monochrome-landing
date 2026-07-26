@@ -1,11 +1,11 @@
 @font-face {
-  font-family: "Roboto";
+  font-family: Roboto;
   src: url("/fonts/Roboto-Medium.ttf") format("truetype");
 }
 
 :root {
   /* Color */
-  --white: #ffffff;
+  --white: #fff;
   --black: #111113;
   --gray: #959595;
 
@@ -54,12 +54,9 @@
 
 body {
   margin: 0;
-
-  color: var(--content);
   background: var(--background);
-
+  color: var(--content);
   font-family: var(--font-family);
-
   -webkit-tap-highlight-color: transparent;
 }
 

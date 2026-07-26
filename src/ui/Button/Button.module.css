@@ -1,20 +1,16 @@
 .container {
   width: fit-content;
   height: fit-content;
-
   border-radius: var(--spacing-xxl);
-
   font-family: var(--font-family);
   font-size: var(--fs-md);
 }
 
 .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 20px;
   height: 20px;
-
   fill: var(--color);
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
