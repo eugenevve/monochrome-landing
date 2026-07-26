@@ -9,6 +9,8 @@ A modern **minimalist portfolio landing page** built with **React**, **TypeScrip
 
 The project follows a monochrome design philosophy, using only black, white, and grayscale colors to emphasize typography, layout, and content. It includes responsive layouts, theme switching, and subtle interactions while keeping the interface clean and distraction-free.
 
+<img src="./public/thumbnail.png" />
+
 ---
 
 ## ✨ About
