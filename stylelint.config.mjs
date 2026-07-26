@@ -38,5 +38,6 @@ export default {
         "transform",
       ],
     ],
+    "selector-class-pattern": null,
   },
 };
