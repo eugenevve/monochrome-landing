@@ -44,14 +44,9 @@ The main goals are:
 
 ## 🛠 Tech Stack
 
-### Core
+### Production
 
-- React 19
-- TypeScript
-- Vite
-
-### Libraries
-
+- React DOM
 - React Router
 - React Helmet Async
 - React Responsive
@@ -59,9 +54,12 @@ The main goals are:
 
 ### Development
 
+- Vite
+- TypeScript
 - ESLint
 - TypeScript ESLint
-- Prettier configuration
+- React ESLint Plugins
+- Stylelint
 - Vite React Plugin
 
 ---
@@ -151,27 +149,6 @@ Included in the original design:
 - Responsive mobile version
 - Interactive prototype
 - Clean minimalist interface
-
----
-
-## 📚 Dependencies
-
-### Production
-
-- React DOM
-- React Router
-- React Helmet Async
-- React Responsive
-- React GitHub Calendar
-
-### Development
-
-- Vite
-- TypeScript
-- ESLint
-- TypeScript ESLint
-- React ESLint Plugins
-- Vite React Plugin
 
 ---
 
